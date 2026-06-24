@@ -1,2 +1,2 @@
-sklearn
+sklearn==1.7.1
 tensorflow
