@@ -41,7 +41,7 @@ st.set_page_config(
 )
 
 #st.title("Weather BI Dashboard with LSTM Forecasting - Berlin")
-st.title("Phase 3 - Weather with Forecasting - Berlin")
+st.title("Phase 3 - Weather with Forecasting")
 
 # =====================================================
 # DATABASE FUNCTIONS
