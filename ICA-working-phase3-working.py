@@ -36,11 +36,12 @@ DB_PATH = DOWNLOADS_FOLDER / "weather_data.db"
 
 
 st.set_page_config(
-    page_title="Phase 3 - Weather BI Dashboard with LSTM Forecasting",
+    page_title="Phase 3 - Weather with Forecasting",
     layout="wide"
 )
 
-st.title("Weather BI Dashboard with LSTM Forecasting - Berlin")
+#st.title("Weather BI Dashboard with LSTM Forecasting - Berlin")
+st.title("Phase 3 - Weather with Forecasting - Berlin")
 
 # =====================================================
 # DATABASE FUNCTIONS
