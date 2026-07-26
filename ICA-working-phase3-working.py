@@ -363,7 +363,7 @@ if st.button("Retrieve Weather Data"):
         # ---------------------------------
         # Historical Data
         # ---------------------------------
-        st.subheader("Historical Weather Data")
+        st.subheader("Historical Temperature Data")
         st.dataframe(df, use_container_width=True, height=400, hide_index=True)
 
         # ---------------------------------
