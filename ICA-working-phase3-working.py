@@ -78,7 +78,9 @@ else:
     if st.button("Get Coordinates"):
         if address_input:
             try:
-                geolocator = Nominatim(user_agent="weather_bi_dashboard_streamlit")
+                #geolocator = Nominatim(user_agent="weather_bi_dashboard_streamlit")
+                geolocator = Nominatim(user_agent="my_geocoding_app")
+                
                 location = geolocator.geocode(address_input)
                 if location:
                     st.session_state.lat = location.latitude
